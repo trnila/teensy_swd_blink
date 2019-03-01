@@ -6,7 +6,11 @@ MKL02 has hardware reset pin *PTA1* that can be grounded to keep processor in re
 Black Magic probe firwmare can also be flashed to cheap ST-Link sold on ebay.
 You will need to connect another SWD debugger to its SWD pins and flash it.
 
-<img src="reset.svg">
+<img src="images/reset.svg">
+
+Top with soldered MKL02 PTA1 to GND   |  Bottom - soldered SWD pads
+:------------------------------------:|:-------------------------:
+![](images/top.jpg)                   |  ![](images/bottom.jpg)
 
 You can build firmware with cmake:
 ```sh
